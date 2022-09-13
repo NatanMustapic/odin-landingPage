@@ -1,10 +1,29 @@
+/**---------------General-------------**/
 body {
-    width: 100%;
     --dark-bg-color: #1F2937;
     --light-bg-color: #E5E7EB;
     --action-bg-color: #3882F6;
+
+    --hero-main-font-color: #F9FAF8;
+    --hero-sec-font-color: #E5E7EB;
+
+    --info-font-color: #1F2937;
+
+    --quote_font-color: #1F2937;
+
     background-color: var(--dark-bg-color);
+    width: 100%;
 }
+
+.signupBtn {
+    width: 70px;
+    background-color: var(--action-bg-color);
+    align-self: center;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+/**---------------NavBar--------------**/
 
 .navBar {
     display: flex;
@@ -16,16 +35,23 @@ body {
     display: flex;
 }
 
+/**---------------Hero----------------**/
+
 .heroSection {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .heroSection .textBox {
     display: flex;
     flex-direction: column;
     height: 400px;
+    width: 500px;
     justify-content: center;
+}
+
+.heroSection .textBox .signupBtn {
+    align-self: flex-start;
 }
 
 .heroSection .imgBox {
@@ -38,8 +64,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 200px;
-    width: 300px;
+    width: 500px;
 }
+
+/**---------------Jumbotron-----------**/
 
 .jumbotron {
     display: flex;
@@ -67,12 +95,15 @@ body {
     border-radius: 5px;
 }
 
+/**---------------Quote---------------**/
+
 .quoteBox {
     display: flex;
     flex-direction: column;
     height: 300px;
     justify-content: center;
     background-color: var(--light-bg-color);
+    padding: 0px 20%;
 }
 
 .quoteBox .quote {
@@ -82,6 +113,8 @@ body {
 .quoteBox .quoteName {
     align-self: flex-end;
 }
+
+/**---------------SignUp--------------**/
 
 .signupContainer {
     display: flex;
@@ -93,9 +126,9 @@ body {
 
 .signupContainer .signupBox {
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 150px;
+    padding: 5px 50px;
     background-color: var(--action-bg-color);
 }
 
@@ -104,8 +137,14 @@ body {
 }
 
 .signupContainer .signupBox .signupBtn {
-
+    margin-left: 25px;
 }
+
+/**---------------Footer--------------**/
+
+
+
+
 
 div {
     border: 2px solid red;
