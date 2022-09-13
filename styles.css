@@ -1,0 +1,104 @@
+body {
+
+}
+
+.navBar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navBar .navBtnContainer {
+    display: flex;
+}
+
+.heroSection {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heroSection .textBox {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+}
+
+.heroSection .imgBox {
+    display: flex;
+    align-items: center;
+}
+
+.heroSection .imgBox .imgPlaceholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron .informationBox {
+    display: flex;
+}
+
+.jumbotron .informationBox .itemBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+.jumbotron .informationBox .itemBox .itemImg  {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.quoteBox {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+}
+
+.quoteBox .quote {
+    font-size: x-large;
+}
+
+.quoteBox .quoteName {
+    align-self: flex-end;
+}
+
+.signupContainer {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupContainer .signupBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.signupContainer .signupBox .signupText {
+
+}
+
+.signupContainer .signupBox .signupBtn {
+
+}
+
+div {
+    border: 2px solid red;
+}
