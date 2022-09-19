@@ -16,11 +16,14 @@ body {
 }
 
 .signupBtn {
-    width: 70px;
     background-color: var(--action-bg-color);
     align-self: center;
     padding: 3px 10px;
-    border-radius: 5px;
+    border-radius: 8px;
+    border: none;
+    
+    font-size: 18px;
+    color: var(--hero-sec-font-color);
 }
 
 /**---------------NavBar--------------**/
@@ -31,8 +34,15 @@ body {
     justify-content: space-between;
 }
 
+.navBar .logoImg {
+    font-size: 24px;
+    color: var(--hero-main-font-color);
+}
+
 .navBar .navBtnContainer {
     display: flex;
+    font-size: 18px;
+    color: var(--hero-sec-font-color);
 }
 
 /**---------------Hero----------------**/
@@ -50,6 +60,17 @@ body {
     justify-content: center;
 }
 
+.heroSection .textBox h1 {
+    font-size: 48px;
+    color: var(--hero-main-font-color)
+}
+
+.heroSection .textBox p {
+    font-size: 18px;
+    color: var(--hero-sec-font-color);
+}
+
+
 .heroSection .textBox .signupBtn {
     align-self: flex-start;
 }
@@ -65,6 +86,7 @@ body {
     align-items: center;
     height: 200px;
     width: 500px;
+    background-color: gray;
 }
 
 /**---------------Jumbotron-----------**/
@@ -75,6 +97,12 @@ body {
     justify-content: center;
     align-items: center;
     background-color: white;
+}
+
+.jumbotron h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: var(--info-font-color);
 }
 
 .jumbotron .informationBox {
@@ -92,6 +120,7 @@ body {
 .jumbotron .informationBox .itemBox .itemImg  {
     height: 100px;
     width: 100px;
+    border: 2px solid var(--action-bg-color);
     border-radius: 5px;
 }
 
@@ -107,11 +136,15 @@ body {
 }
 
 .quoteBox .quote {
-    font-size: x-large;
+    font-size: 36px;
+    font-style: italic;
+    color: var(--quote_font-color);
 }
 
 .quoteBox .quoteName {
     align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /**---------------SignUp--------------**/
@@ -122,6 +155,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: white;
+    color: var(--hero-sec-font-color);
 }
 
 .signupContainer .signupBox {
@@ -138,14 +172,15 @@ body {
 
 .signupContainer .signupBox .signupBtn {
     margin-left: 25px;
+    border: 2px solid var(--hero-sec-font-color);
 }
 
 /**---------------Footer--------------**/
 
-
-
-
-
-div {
-    border: 2px solid red;
+.footer {
+    display: flex;
+    justify-content: center;
+    color: var(--hero-sec-font-color);
+    padding: 20px 0px;
 }
+
